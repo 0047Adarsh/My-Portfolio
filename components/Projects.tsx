@@ -163,6 +163,11 @@ export default function Projects() {
         AI-driven solutions.
       </p>
 
+      <div>
+        <h1>Websites</h1>
+        <h1>Full Stack Applications</h1>
+      </div>
+
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
         {projects.map((project, index) => (
           <div
