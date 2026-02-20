@@ -19,7 +19,7 @@ export default function Experience() {
   ];
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white py-20">
+    <section id="experience" className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white py-20">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-16">
         Experience
       </h1>

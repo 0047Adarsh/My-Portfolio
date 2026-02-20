@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Linkedin, Github } from "lucide-react";
 
 
@@ -17,6 +17,37 @@ const nav = [
 
 export default function Header() {
   const [active, setActive] = useState("home");
+
+  useEffect(() => {
+    const sections = nav.map((item) =>
+      document.getElementById(item.id)
+    );
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActive(entry.target.id);
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: "-40% 0px -40% 0px",
+        threshold: 0.1,
+      }
+    );
+
+    sections.forEach((section) => {
+      if (section) observer.observe(section);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        if (section) observer.unobserve(section);
+      });
+    };
+  }, []);
 
   return (
     <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
@@ -57,6 +88,8 @@ export default function Header() {
           >
             <Github />
           </a>
+      
+          
         </div>
       </div>
     </header>
