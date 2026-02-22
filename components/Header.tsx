@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Linkedin, Github } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 
 
 
@@ -75,7 +75,7 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://www.linkedin.com/in/adarsh-a-devadiga"
+            href="https://www.linkedin.com/in/adarsh-a-devadiga/"
             target="_blank"
             className="bg-black/40 backdrop-blur-xl  px-3 py-3 text-sm text-gray-300 hover:text-white transition rounded-full border border-white/15"
           >
@@ -88,6 +88,13 @@ export default function Header() {
           >
             <Github />
           </a>
+
+          <a
+              href="mailto:adarsh9742007@gmail.com"
+              className=" bg-black/40 backdrop-blur-xl  px-3 py-3 text-sm text-gray-300 hover:text-white transition rounded-full border border-white/15" 
+            >
+              <Mail />
+            </a>
       
           
         </div>

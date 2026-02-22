@@ -38,7 +38,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_LINK"
+              href="https://www.linkedin.com/in/adarsh-a-devadiga/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
@@ -47,7 +47,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:your@email.com"
+              href="mailto:adarsh9742007@gmail.com"
               className="hover:text-white transition"
             >
               <Mail className="w-5" />

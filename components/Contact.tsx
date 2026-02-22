@@ -73,7 +73,8 @@ const Contact = () => {
             <div className="p-6 rounded-xl bg-white/5 border border-white/10">
               <p className="text-sm text-gray-400 mb-2">Availability</p>
               <p className="text-white font-medium">
-                Currently open to freelance projects and full-time roles.
+                Currently open to freelance projects and full-time roles.<br/>
+                <span>You can email me on adarsh9742007@gmail.com</span>
               </p>
             </div>
 
