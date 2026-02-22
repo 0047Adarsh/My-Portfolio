@@ -8,10 +8,10 @@ import { Linkedin, Github } from "lucide-react";
 const nav = [
   { id: "home", title: "Home" },
   { id: "about", title: "About" },
-  { id: "services", title: "Services" },
+  // { id: "services", title: "Services" },
   { id: "experience", title: "Experience" },
   { id: "projects", title: "Projects" },
-  { id: "testimonials", title: "Testimonials" },
+  // { id: "testimonials", title: "Testimonials" },
   { id: "contact", title: "Contact" },
 ];
 
