@@ -89,12 +89,12 @@ export default function Header() {
             <Github />
           </a>
 
-          <a
+          {/* <a
               href="mailto:adarsh9742007@gmail.com"
               className=" bg-black/40 backdrop-blur-xl  px-3 py-3 text-sm text-gray-300 hover:text-white transition rounded-full border border-white/15" 
             >
               <Mail />
-            </a>
+            </a> */}
       
           
         </div>
