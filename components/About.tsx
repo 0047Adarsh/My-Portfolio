@@ -73,16 +73,20 @@ export default function About() {
             About Me
           </h2>
 
-          <p className="text-gray-300 leading-relaxed mb-6">
-            I’m <span className="text-white font-semibold">Adarsh A Devadiga</span>,
-            a Full Stack and Cloud Deployment Engineer building scalable ERP systems,
-            analytics dashboards, and AI-powered platforms.
-          </p>
+         <p className="text-gray-300 leading-relaxed mb-6">
+  Hi, I’m <span className="text-white font-semibold">Adarsh A Devadiga</span> - 
+  a Full Stack & Cloud Engineer who enjoys turning complex business chaos into clean, scalable software.
+</p>
 
-          <p className="text-gray-400 leading-relaxed mb-6">
-            I work across frontend, backend, automation, and cloud infrastructure —
-            translating business workflows into reliable digital systems.
-          </p>
+<p className="text-gray-400 leading-relaxed mb-6">
+  I’ve built ERPs, dashboards, chatbots, IoT pipelines, and automations that save hours of manual work. 
+  My work spans the full stack from crafting smooth frontends and reliable backends to deploying everything on the cloud.
+</p>
+
+<p className="text-gray-400 leading-relaxed mb-6">
+  I like connecting systems that weren’t meant to talk, automating repetitive tasks, and building tools that businesses actually depend on. 
+  Also, I enjoy that rare and beautiful moment when everything works on the first try.
+</p>
 
           <div className="grid grid-cols-3 gap-6 mt-10">
             <div>
@@ -93,10 +97,10 @@ export default function About() {
               <p className="text-3xl font-bold text-indigo-400">15+</p>
               <p className="text-gray-400 text-sm">Projects</p>
             </div>
-            <div>
+            {/* <div>
               <p className="text-3xl font-bold text-indigo-400">10+</p>
               <p className="text-gray-400 text-sm">Systems Automated</p>
-            </div>
+            </div> */}
           </div>
         </div>
 

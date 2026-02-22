@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="flex items-center gap-3">
         <a
             className="bg-black/40 backdrop-blur-xl px-4 py-3 text-xm text-gray-300 hover:text-white transition rounded-full border border-white/15 flex w-max items-center gap-2"
-            href="/Adarsh_Devadiga_Resume.pdf"
+            href="https://drive.google.com/uc?export=download&id=1qzpzhMUIA6CRm21RPBU_OSSO4AZeT7JP"
             download
           >
             <ArrowDownToLine className="w-4"/>
