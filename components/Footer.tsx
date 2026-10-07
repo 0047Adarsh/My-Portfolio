@@ -11,21 +11,21 @@ export default function Footer() {
           <h3 className="text-white font-semibold text-lg">
             Crafted by Adarsh A Devadiga
           </h3>
-          <p className="text-sm max-w-md">
+          {/* <p className="text-sm max-w-md">
             Engineered with a focus on scalability, clarity, and production-grade
             architecture.
-          </p>
+          </p> */}
         </div>
 
         <div className="space-y-4">
-          <div>
+          {/* <div>
             <p className="text-sm text-gray-500 uppercase tracking-wider mb-2">
               Built Using
             </p>
             <p className="text-sm">
               Next.js App Router · Tailwind CSS · Modern JavaScript
             </p>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-4">
             <a
